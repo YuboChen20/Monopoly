@@ -92,7 +92,6 @@ public class MainWindow extends JFrame implements MonopolyGUI{
 
 	public int[] getDiceRoll() {
 		TestDiceRollDialog dialog = new TestDiceRollDialog(this);
-		dialog.show();
 		return dialog.getDiceRoll();
 	}
 
