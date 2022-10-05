@@ -32,14 +32,14 @@ public class GUIRespondDialog extends JDialog implements RespondDialog {
         btnYes.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e) {
                 response = true;
-                hide();
+                
             }
         });
 
         btnNo.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e) {
                 response = false;
-                hide();
+                
             }
         });
     
