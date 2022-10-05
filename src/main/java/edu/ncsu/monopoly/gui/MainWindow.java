@@ -131,7 +131,7 @@ public class MainWindow extends JFrame implements MonopolyGUI{
 
     public TradeDialog openTradeDialog() {
         GUITradeDialog dialog = new GUITradeDialog(this);
-        dialog.show();
+   
         return dialog;
     }
 	

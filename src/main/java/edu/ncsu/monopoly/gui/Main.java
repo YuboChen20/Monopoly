@@ -56,7 +56,6 @@ public class Main {
 			gameBoard = new GameBoardFull();
 		}
 		
-//      GameBoard gameBoard = new GameBoardFull();
 //		GameBoard gameBoard = new GameBoardCCMovePlayer();
 //		GameBoard gameBoard = new GameBoardCCLoseMoney();
 //		GameBoard gameBoard = new GameBoardCCJail();
